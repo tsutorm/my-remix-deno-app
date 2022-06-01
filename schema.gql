@@ -1,0 +1,8 @@
+type Joke {
+   name: String!
+   content: String!
+}
+
+type Query {
+   allJokes: [Joke!]
+}
